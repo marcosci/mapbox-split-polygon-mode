@@ -9,7 +9,7 @@ export const passingModeName = `${modeName}_passing_draw_line_string`;
 export const highlightPropertyName = `${modeName}_highlight`;
 
 export const defaultOptions = {
-  highlightColor: "#222",
+  highlightColor: "#ff6229",
   lineWidth: 0,
   lineWidthUnit: "kilometers",
   onSelectFeatureRequest() {
