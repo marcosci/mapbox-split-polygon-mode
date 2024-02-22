@@ -1,6 +1,9 @@
 import polygonSplitter from "polygon-splitter";
 
-import { geojsonTypes, events } from "@mapbox/mapbox-gl-draw/src/constants";
+import MapboxDraw from "@mapbox/mapbox-gl-draw";
+
+let geojsonTypes = MapboxDraw.constants.geojsonTypes;
+let events = MapboxDraw.constants.events;
 
 import lineIntersect from "@turf/line-intersect";
 import booleanDisjoint from "@turf/boolean-disjoint";
