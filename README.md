@@ -1,5 +1,4 @@
 [![NPM](https://img.shields.io/npm/v/mapbox-split-polygon-mode.svg)](https://www.npmjs.com/package/mapbox-split-polygon-mode)
-[![Develop](https://github.com/marcosci/mapbox-split-polygon-mode/actions/workflows/develop.yml/badge.svg)](https://github.com/marcosci/mapbox-split-polygon-mode/actions/workflows/develop.yml)
 [![Release](https://github.com/marcosci/mapbox-split-polygon-mode/actions/workflows/release.yml/badge.svg)](https://github.com/marcosci/mapbox-split-polygon-mode/actions/workflows/release.yml)
 
 # mapbox-split-polygon-mode

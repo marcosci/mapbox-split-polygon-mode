@@ -11,12 +11,11 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: "20.x"
       - name: Bundle 📦
         run: |
-          npm i
           npm ci
           npm run build
       - name: Install and Build Demo 🔧
@@ -25,7 +24,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_ACTIONS }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: demo/dist # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
