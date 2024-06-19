@@ -40,12 +40,12 @@
     "@rollup/plugin-node-resolve": "15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
     "eslint": "8.56.0",
-    "mapbox-gl-draw-select-mode": "^1.0.3",
     "rollup": "^4.12.0"
   },
   "peerDependencies": {
     "@mapbox/mapbox-gl-draw": "^1.4.3",
-    "mapbox-gl-draw-passing-mode": "^2.2.2"
+    "mapbox-gl-draw-passing-mode": "^2.2.2",
+    "mapbox-gl-draw-select-mode": "^1.0.3"
   },
   "dependencies": {
     "@turf/turf": "6.5.0",
